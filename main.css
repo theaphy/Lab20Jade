@@ -32,3 +32,16 @@ a {
 a:hover {
   background-color: rgba(0,0,0,0.5);
 }
+table {
+  margin: 0 auto;
+}
+table tr {
+  background-color: #eee;
+}
+table tr.even,
+table tr:nth-child(even) {
+  background-color: #fff;
+}
+table td {
+  padding: 4px 10px;
+}

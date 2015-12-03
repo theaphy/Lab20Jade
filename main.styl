@@ -1,3 +1,10 @@
+stripe(even = #fff, odd = #eee)
+	tr
+		background-color odd
+		&.even
+		&:nth-child(even)
+			background-color even
+
 bgcolor = navy;
 linkColor = limegreen;
 transBack = rgba(0, 0, 0, 0.2)
@@ -36,4 +43,10 @@ a
 
 a:hover
 	background-color transFront
+	
+table
+	stripe()
+	td
+		padding 4px 10px
+	margin 0 auto
 	
